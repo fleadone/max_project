@@ -6,62 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="wrapper">
       <div class="flex_col">
         <header class="flex_col">
-          <div class="start_screen conteiner">
-            <div class="logo">
-            </div>
-            <div class="description">
-              <h2>ВИРОБИ  З  ГРАНІТУ</h2>
-              <h2>ТА  МАРМУРУ</h2>
-            </div>
-          </div>
           <nav class="">
+            <div class="fix-menu"></div>
             <div class="menu">
               <div><a href="#">Головна</a></div>
               <div><a href="#">Каталоги</a></div>
-              <div><a href="#">Кольори граніту</a></div>
-              <div><a href="#">Інші вироби</a></div>
+              <!-- <div><a href="#">Кольори граніту</a></div> -->
               <div><a href="#">Про нас</a></div>
               <div><a href="#">Коктакти</a></div>
             </div>
           </nav>
-          <div class="slider">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="img/img1.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="img/img2.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="img/img3.jpg" alt="Third slide">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </header>
-        <main>
-          <div class="catalog">
-            <div class="categories conteiner">
+          <div class="container-categories">
+            <div class="fix-categories"></div>
+            <div class="categories">
               <div class="active-cat">
                 <h3>ПАМЯТНИКИ</h3>
               </div>
@@ -78,83 +43,231 @@
                 <h3>ІНШІ ВИРОБИ</h3>
               </div>
             </div>
+          </div>
+          <div class="container-logo">
+            <div class="logo"></div>
+          </div>
+          <div class="catalog">
+
             <div class="categ-descr">
               <div class="desc-div active">
-                <img src="img/cat.jpg" alt="">
+                <div class="photo-categ">
+                  <div class="photo-border">
+                    <img src="img/tombstones.jpg" alt="">
+                  </div>
+                </div>
                 <div class="cat-text">
                   <p>Мы обеспечиваем своих специалистов современным
                   оборудованием, что совместно с большим опытом позволяет
                   более качественно обработать гранит и изготовить памятник,
-                  который не потеряет своих свойств со временем. А широкая
-                  цветовая гамма гранитов, хорошее воображение и умение, позволяют
-                  сделать этот памятник очень красивым.</p>
-                  <a href="#">ДІЗНАТИСЬ БІЛЬШЕ</a>
+                  который не потеряет своих свойств со временем.</p>
+                  <div class="deco-line"></div>
+                  <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a>
                 </div>
               </div>
               <div class="desc-div">
-                <h1>2</h1>
+                <div class="photo-categ">
+                  <div class="photo-border">
+                    <img src="img/stairs.jpg" alt="">
+                  </div>
+                </div>
+                <div class="cat-text">
+                  <p>Мы обеспечиваем своих специалистов современным
+                  оборудованием, что совместно с большим опытом позволяет
+                  более качественно обработать гранит и изготовить памятник,
+                  который не потеряет своих свойств со временем.</p>
+                  <div class="deco-line"></div>
+                  <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a>
+                </div>
               </div>
               <div class="desc-div">
-                <h1>3</h1>
+                <div class="photo-categ">
+                  <div class="photo-border">
+                    <img src="img/table.jpg" alt="">
+                  </div>
+                </div>
+                <div class="cat-text">
+                  <p>Мы обеспечиваем своих специалистов современным
+                  оборудованием, что совместно с большим опытом позволяет
+                  более качественно обработать гранит и изготовить памятник,
+                  который не потеряет своих свойств со временем.</p>
+                  <div class="deco-line"></div>
+                  <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a>
+                </div>
               </div>
               <div class="desc-div">
-                <h1>4</h1>
+                <div class="photo-categ">
+                  <div class="photo-border">
+                    <img src="img/accessories.jpg" alt="">
+                  </div>
+                </div>
+                <div class="cat-text">
+                  <p>Мы обеспечиваем своих специалистов современным
+                  оборудованием, что совместно с большим опытом позволяет
+                  более качественно обработать гранит и изготовить памятник,
+                  который не потеряет своих свойств со временем.</p>
+                  <div class="deco-line"></div>
+                  <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a>
+                </div>
               </div>
               <div class="desc-div">
-                <h1>5</h1>
+                <div class="photo-categ">
+                  <div class="photo-border">
+                    <img src="img/others.jpg" alt="">
+                  </div>
+                </div>
+                <div class="cat-text">
+                  <p>Мы обеспечиваем своих специалистов современным
+                  оборудованием, что совместно с большим опытом позволяет
+                  более качественно обработать гранит и изготовить памятник,
+                  который не потеряет своих свойств со временем.</p>
+                  <div class="deco-line"></div>
+                  <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="about-us conteiner">
-            <div class="about-us-top">
-              <h2>ПРО НАС</h2>
-              <div class="deco-line-top"></div>
+        </header>
+        <main>
+          <div class="why-us">
+            <div class="why-us-top">
+              <h2>Чому обирають нас</h2>
             </div>
-            <div class="about-us-bottom">
-              <div class="about-us-text">
-                <p>Основним видом діяльності нашої родинної майстерні
-                є виготовлення надмогильних пам’ятників. Проте, Ви
-                також можете замовити сходи, підвіконня, стільниці (кухонні,ванні)
-                та інші речі, які можна виконати з граніту. Виготовлення
-                пам’ятників включає весь комплекс послуг - від замовлення – до його
-                встановлення на цвинтарі. Не хочеться Вас запевняти, що в нас
-                найкращі пам’ятники, найкращі спеціалісти та найкраща якість,
-                цю оцінку Ви зможете дати самі, переглянувши наші роботи, а
-                також відвідавши нашу майстерню, де Вас завжди вислухають і
-                дадуть добру пораду.
-                Основним видом діяльності нашої родинної майстерні
-                є виготовлення надмогильних пам’ятників. Проте, Ви
-                також можете замовити сходи, підвіконня, стільниці (кухонні,ванні)
-                та інші речі, які можна виконати з граніту. Виготовлення
-                пам’ятників включає весь комплекс послуг - від замовлення – до його
-                встановлення на цвинтарі. Не хочеться Вас запевняти, що в нас
-                найкращі пам’ятники, найкращі спеціалісти та найкраща якість,
-                цю оцінку Ви зможете дати самі, переглянувши наші роботи, а
-                також відвідавши нашу майстерню, де Вас завжди вислухають і
-                дадуть добру пораду.</p>
+            <div class="why-us-bot">
+              <div class="why-us-item">
+                <div class="icon">
+                  <img src="img/exp.png" alt="">
+                </div>
+                <div class="why-us-bot-text">
+                  <h5>Великий досвід</h5>
+                  <p>Вибір меморіального постаменту на могилу - це дуже відповідальний процес,
+                 адже ви збираєтеся встановити монумент на довгі роки.
+                 Саме тому ми стараємося для вас! Ми на ринку з 2000 року,
+                 та здобули довіру наших клієнтів.</p>
+                </div>
               </div>
-              <div class="about-us-photo">
-                <img src="img/about-us.jpg" alt="">
+              <div class="why-us-item">
+                <div class="icon">
+                  <img src="img/quality.png" alt="">
+                </div>
+                <div class="why-us-bot-text">
+                  <h5>Гарантія якості</h5>
+                  <p>Ми працюємо тільки з якісним та перевіреним роками українським гранітом.
+                  Саме тому ми відповідаюмо за якість робіт та за якість граніту з яким працюємо.</p>
+                </div>
+              </div>
+              <div class="why-us-item">
+                <div class="icon">
+                  <img src="img/idevid.png" alt="">
+                </div>
+                <div class="why-us-bot-text">
+                  <h5>Індивідуальний підхід</h5>
+                  <p>До кожного клієнта ми застосовуємо індивідуальний підхід. Пропрацьовуємо,
+                  враховуючи бажання клієнта, при необхідності спроектовуємо разом з клієнтом  мойбутній проект.</p>
+                </div>
+              </div>
+              <div class="why-us-item">
+                <div class="icon">
+                  <img src="img/stock.png" alt="">
+                </div>
+                <div class="why-us-bot-text">
+                  <h5>Великій вибір робіт</h5>
+                  <p>Ми пропонуємо широкий ассортимент моделей памятників, будь-яких розмірів,
+                   а також велике різноманіття кольорів граніту.</p>
+                </div>
+              </div>
+              <div class="why-us-item">
+                <div class="icon">
+                  <img src="img/location.png" alt="">
+                </div>
+                <div class="why-us-bot-text">
+                  <h5>Львів та область</h5>
+                  <p>Ми встановлюємо памятники не тільки у Львові, але також
+                  і у області.</p>
+                </div>
               </div>
             </div>
           </div>
+          <div class="gallery-container">
+            <h2>Галерея наших робіт</h2>
+            <div class="gallery">
+              <div id="single">
+                <div class="gallery-border">
+                  <img src="img/single-bg.jpg" alt="">
+                </div>
+                <div class="gallery-text">
+                  <h3>Одинарні памятники</h3>
+                </div>
+
+              </div>
+              <div id="double">
+                <div class="gallery-border">
+                  <img src="img/double-bg.jpg" alt="">
+                </div>
+                <div class="gallery-text">
+                  <h3>Подвійні памятники</h3>
+                </div>
+              </div>
+              <div id="stairs">
+                <div class="gallery-border">
+                  <img src="img/stairs.jpg" alt="">
+                </div>
+                <div class="gallery-text">
+                  <h3>Сходи</h3>
+                </div>
+              </div>
+              <div id="table">
+                <div class="gallery-border">
+                  <img src="img/table.jpg" alt="">
+                </div>
+                <div class="gallery-text">
+                  <h3>Столешні</h3>
+                </div>
+              </div>
+              <div id="accessory">
+                <div class="gallery-border">
+                  <img src="img/accessories.jpg" alt="">
+                </div>
+                <div class="gallery-text">
+                  <h3>Аксессуари</h3>
+                </div>
+              </div>
+              <div id="other">
+                <div class="gallery-border">
+                  <img src="img/others.jpg" alt="">
+                </div>
+                <div class="gallery-text">
+                  <h3>Інші вироби із каменя</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </main>
         <footer>
-          <div class="contacts conteiner">
-            <h2>КОНТАКТИ</h2>
+          <div class="contacts">
+            <div class="contacts-top">
+              <h2>КОНТАКТИ</h2>
+            </div>
             <div class="contacts-inside">
               <div>
                 <h4>АДРЕСА</h4>
+                <div class="contacts-deco-line"></div>
                 <p>м. Львів</p>
                 <p>вул. Костя Левицького, 60</p>
+                <br>
+                <p>м. Жидачів</p>
+                <p>вул. Степана Бандери, 45а</p>
               </div>
               <div>
                 <h4>КОНТАКТНІ ТЕЛЕФОНИ</h4>
+                <div class="contacts-deco-line"></div>
                 <p>063 999 88 77</p>
                 <p>098 777 66 55</p>
+                <p>main@svitkamen.com.ua</p>
               </div>
             </div>
-
           </div>
           <div id="map"></div>
         </footer>
