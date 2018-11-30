@@ -65,7 +65,8 @@ nav {
   border-radius: 10px; }
   .container-logo h1 {
     font-family: 'Lobster', cursive;
-    text-align: center; }
+    text-align: center;
+    color: #ebb231; }
 
 main {
   width: 100%;
