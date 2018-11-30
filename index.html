@@ -8,20 +8,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="wrapper">
+      <div class="gallery-inside">
+        <div class="close-gallery"></div>
+        <div class="gallery-zoom">  
+        </div>
+      </div>
+      
       <div class="flex_col">
-        <header class="flex_col">
+        <header class="flex_col" id="header">
           <nav class="">
             <div class="fix-menu"></div>
             <div class="menu">
-              <div><a href="#">Головна</a></div>
-              <div><a href="#">Каталоги</a></div>
-              <!-- <div><a href="#">Кольори граніту</a></div> -->
-              <div><a href="#">Про нас</a></div>
-              <div><a href="#">Коктакти</a></div>
+              <div><a href="#header">Головна</a></div>
+              <div><a href="#why-us">Про нас</a></div>
+              <div><a href="#gallery">Каталоги</a></div>
+              <div><a href="#contacts">Коктакти</a></div>
             </div>
           </nav>
           <div class="container-categories">
@@ -34,10 +41,10 @@
                 <h3>СХОДИ</h3>
               </div>
               <div class="">
-                <h3>СТОЛЕШНІ</h3>
+                <h3>СТІЛЬНИЦІ</h3>
               </div>
               <div class="">
-                <h3>АКСЕССУАРИ</h3>
+                <h3>КОВАНІ ВИРОБИ</h3>
               </div>
               <div class="">
                 <h3>ІНШІ ВИРОБИ</h3>
@@ -45,10 +52,10 @@
             </div>
           </div>
           <div class="container-logo">
-            <div class="logo"></div>
+            <!-- <div class="logo"></div> -->
+            <h1>Світ каменю і металу</h1>
           </div>
           <div class="catalog">
-
             <div class="categ-descr">
               <div class="desc-div active">
                 <div class="photo-categ">
@@ -57,27 +64,21 @@
                   </div>
                 </div>
                 <div class="cat-text">
-                  <p>Мы обеспечиваем своих специалистов современным
-                  оборудованием, что совместно с большим опытом позволяет
-                  более качественно обработать гранит и изготовить памятник,
-                  который не потеряет своих свойств со временем.</p>
+                  <p>Пам 'ятники з граніту: одинарні, півторачки, подвійні, потрійні, гробівці, дитячі - на замовлення.</p>
                   <div class="deco-line"></div>
-                  <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a>
+                  <!-- <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a> -->
                 </div>
               </div>
               <div class="desc-div">
                 <div class="photo-categ">
                   <div class="photo-border">
-                    <img src="img/stairs.jpg" alt="">
+                    <img src="img/stairs-2.jpg" alt="">
                   </div>
                 </div>
                 <div class="cat-text">
-                  <p>Мы обеспечиваем своих специалистов современным
-                  оборудованием, что совместно с большим опытом позволяет
-                  более качественно обработать гранит и изготовить памятник,
-                  который не потеряет своих свойств со временем.</p>
+                  <p>Сходи внутрішні, зовнішні (виготовляємо на замовлення за індивідуальними розмірами). Ковані перила у поєднанні з гранітними сходинками мають неповторний вигляд!.</p>
                   <div class="deco-line"></div>
-                  <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a>
+                  <!-- <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a> -->
                 </div>
               </div>
               <div class="desc-div">
@@ -87,27 +88,21 @@
                   </div>
                 </div>
                 <div class="cat-text">
-                  <p>Мы обеспечиваем своих специалистов современным
-                  оборудованием, что совместно с большим опытом позволяет
-                  более качественно обработать гранит и изготовить памятник,
-                  который не потеряет своих свойств со временем.</p>
+                  <p>Стільниця та підвіконня грають величезну роль в стилістиці інтер'єру (виготовляємо на замовлення за індивідуальними розмірами і дизайном).</p>
                   <div class="deco-line"></div>
-                  <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a>
+                  <!-- <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a> -->
                 </div>
               </div>
               <div class="desc-div">
                 <div class="photo-categ">
                   <div class="photo-border">
-                    <img src="img/accessories.jpg" alt="">
+                    <img src="img/kovka-2.jpg" alt="">
                   </div>
                 </div>
                 <div class="cat-text">
-                  <p>Мы обеспечиваем своих специалистов современным
-                  оборудованием, что совместно с большим опытом позволяет
-                  более качественно обработать гранит и изготовить памятник,
-                  который не потеряет своих свойств со временем.</p>
+                  <p>Вироби художньої ковки: огорожі, дашки, ворота, перила, люстри та ін.</p>
                   <div class="deco-line"></div>
-                  <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a>
+                  <!-- <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a> -->
                 </div>
               </div>
               <div class="desc-div">
@@ -117,19 +112,16 @@
                   </div>
                 </div>
                 <div class="cat-text">
-                  <p>Мы обеспечиваем своих специалистов современным
-                  оборудованием, что совместно с большим опытом позволяет
-                  более качественно обработать гранит и изготовить памятник,
-                  который не потеряет своих свойств со временем.</p>
+                  <p>Інші вироби-аксесуари: меморіальні таблиці, гранітні вази, підсвічники, латунні хрести, букви.</p>
                   <div class="deco-line"></div>
-                  <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a>
+                  <!-- <a class="btn-cat" href="#">ДІЗНАТИСЬ БІЛЬШЕ</a> -->
                 </div>
               </div>
             </div>
           </div>
         </header>
         <main>
-          <div class="why-us">
+          <div class="why-us" id="why-us">
             <div class="why-us-top">
               <h2>Чому обирають нас</h2>
             </div>
@@ -188,7 +180,7 @@
               </div>
             </div>
           </div>
-          <div class="gallery-container">
+          <div class="gallery-container" id="gallery">
             <h2>Галерея наших робіт</h2>
             <div class="gallery">
               <div id="single">
@@ -210,7 +202,7 @@
               </div>
               <div id="stairs">
                 <div class="gallery-border">
-                  <img src="img/stairs.jpg" alt="">
+                  <img src="img/stairs-2.jpg" alt="">
                 </div>
                 <div class="gallery-text">
                   <h3>Сходи</h3>
@@ -221,15 +213,15 @@
                   <img src="img/table.jpg" alt="">
                 </div>
                 <div class="gallery-text">
-                  <h3>Столешні</h3>
+                  <h3>Стільниці</h3>
                 </div>
               </div>
-              <div id="accessory">
+              <div id="kovka">
                 <div class="gallery-border">
-                  <img src="img/accessories.jpg" alt="">
+                  <img src="img/kovka-2.jpg" alt="">
                 </div>
                 <div class="gallery-text">
-                  <h3>Аксессуари</h3>
+                  <h3>Ковані вироби</h3>
                 </div>
               </div>
               <div id="other">
@@ -237,16 +229,17 @@
                   <img src="img/others.jpg" alt="">
                 </div>
                 <div class="gallery-text">
-                  <h3>Інші вироби із каменя</h3>
+                  <h3>Інші вироби</h3>
                 </div>
               </div>
             </div>
+            <!-- <div class="gallery-inside"></div> -->
           </div>
 
 
         </main>
         <footer>
-          <div class="contacts">
+          <div class="contacts" id="contacts">
             <div class="contacts-top">
               <h2>КОНТАКТИ</h2>
             </div>
@@ -255,17 +248,15 @@
                 <h4>АДРЕСА</h4>
                 <div class="contacts-deco-line"></div>
                 <p>м. Львів</p>
-                <p>вул. Костя Левицького, 60</p>
+                <p>вул. Хуторівка (біля факультету УКУ, навпроти Нижнього Шувару)</p>
                 <br>
-                <p>м. Жидачів</p>
-                <p>вул. Степана Бандери, 45а</p>
+                
               </div>
               <div>
                 <h4>КОНТАКТНІ ТЕЛЕФОНИ</h4>
                 <div class="contacts-deco-line"></div>
-                <p>063 999 88 77</p>
-                <p>098 777 66 55</p>
-                <p>main@svitkamen.com.ua</p>
+                <p>097 211 1122</p>
+                <p>svitkamenia@gmail.com</p>
               </div>
             </div>
           </div>

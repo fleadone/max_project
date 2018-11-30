@@ -63,6 +63,9 @@ nav {
   top: 0;
   left: 2%;
   border-radius: 10px; }
+  .container-logo h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center; }
 
 main {
   width: 100%;
@@ -94,7 +97,7 @@ main {
   justify-content: space-around;
   align-items: center; }
   .categories div {
-    width: 18%;
+    width: 19%;
     color: #8a8a8a;
     height: 80px;
     padding-top: 22px;
@@ -244,7 +247,7 @@ main {
   .gallery-text h3 {
     color: #ebb231;
     text-align: center;
-    font-weight: 300; }
+    font-weight: 600; }
 
 .gallery-border {
   width: 100%;
@@ -259,6 +262,64 @@ main {
     top: -22px;
     left: 8px;
     z-index: 2; }
+
+.gallery-inside {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
+  display: none;
+  z-index: 5;
+  overflow-y: scroll;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  grid-gap: 20px; }
+
+.gallery-zoom {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: rgba(239, 239, 239, 0.5);
+  display: none;
+  z-index: 6;
+  justify-content: center; }
+
+.iside-block {
+  width: 350px;
+  height: 250px;
+  margin: 40px auto;
+  overflow: hidden; }
+
+.zoom-in {
+  width: 70%;
+  height: 100%;
+  position: relative; }
+  .zoom-in img {
+    width: 100%;
+    padding: 100px; }
+
+.close-gallery {
+  width: 35px;
+  height: 35px;
+  background-image: url(img/close-icon.png);
+  background-size: contain;
+  position: fixed;
+  z-index: 6;
+  top: 20px;
+  right: 10px; }
+
+.close-gallery-zoom {
+  position: absolute;
+  background-image: url(img/close-icon.png);
+  background-size: contain;
+  top: 65px;
+  right: 25px;
+  width: 30px;
+  height: 30px; }
+
+.close-gallery-zoom:hover, .close-gallery:hover {
+  cursor: pointer; }
 
 footer {
   width: 100%;
