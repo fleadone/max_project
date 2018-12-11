@@ -174,6 +174,11 @@ main {
 .active {
   display: block !important; }
 
+.active-animate {
+  -webkit-animation: fadeInRight100 .5s linear 0s forwards;
+  -moz-animation: fadeInRight100 .5s linear 0s forwards;
+  animation: fadeInRight100 .5s linear 0s forwards; }
+
 .why-us {
   width: 100%;
   height: 600px;
@@ -355,6 +360,10 @@ footer {
     font-weight: 300; }
   .contacts-inside p {
     font-weight: 300; }
+    .contacts-inside p a {
+      color: #000; }
+    .contacts-inside p a:hover {
+      text-decoration: none; }
 
 .contacts-deco-line {
   width: 100%;
