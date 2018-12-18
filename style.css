@@ -39,7 +39,7 @@ nav {
     width: 30%;
     height: 50px; }
   nav .menu {
-    width: 70%;
+    width: 50%;
     display: flex;
     height: 50px;
     align-items: center;
@@ -253,7 +253,8 @@ main {
   .gallery-text h3 {
     color: #ebb231;
     text-align: center;
-    font-weight: 600; }
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black; }
 
 .gallery-border {
   width: 100%;

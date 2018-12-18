@@ -47,7 +47,7 @@ nav{
     height: 50px;
   }
   .menu{
-    width: 70%;
+    width: 50%;
     display: flex;
     height: 50px;
     align-items: center;
@@ -308,6 +308,7 @@ main{
     color: #ebb231;
     text-align: center;
     font-weight: 600;
+    text-shadow: 1px 1px 2px black;
   }
 }
 .gallery-border{
