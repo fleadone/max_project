@@ -11,7 +11,7 @@ $(document).ready(function() {
     $('.gallery-inside').fadeIn();
     $('.gallery-inside').css('display', 'grid');
       if ($(this).attr('id')=='single') {
-        for (var i = 0; i < 30; i++) {
+        for (var i = 0; i < 29; i++) {
           $('.gallery-inside').append('<div class = "iside-block"><div class = "gallery-border"><img class="zoom" src="img/one-'+(i+1)+'.jpg"></div></div>');
         }
       } if ($(this).attr('id')=='double') {
@@ -31,7 +31,7 @@ $(document).ready(function() {
           $('.gallery-inside').append('<div class = "iside-block"><div class = "gallery-border"><img class="zoom" src="img/kovka-'+(i+1)+'.jpg"></div></div>');
         }
       } if ($(this).attr('id')=='other') {
-        for (var i = 0; i < 5; i++) {
+        for (var i = 0; i < 10; i++) {
           $('.gallery-inside').append('<div class = "iside-block"><div class = "gallery-border"><img class="zoom" src="img/other-'+(i+1)+'.jpg"></div></div>');
         }
       }
