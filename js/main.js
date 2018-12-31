@@ -15,7 +15,7 @@ $(document).ready(function() {
           $('.gallery-inside').append('<div class = "iside-block"><div class = "gallery-border"><img class="zoom" src="img/one-'+(i+1)+'.jpg"></div></div>');
         }
       } if ($(this).attr('id')=='double') {
-        for (var i = 0; i < 45; i++) {
+        for (var i = 0; i < 20; i++) {
           $('.gallery-inside').append('<div class = "iside-block"><div class = "gallery-border"><img class="zoom" src="img/double-'+(i+1)+'.jpg"></div></div>');
         }
       } if ($(this).attr('id')=='stairs') {
